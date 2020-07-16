@@ -66,5 +66,17 @@
   "SpecialPages": {
     "SimpleFavoritelist": "SpecialSimpleFavoritelist"
   },
+    "LogTypes": [
+    "simplefavorites"
+  ],
+  "LogNames": {
+    "simplefavorites": "simplefavoriteslog"
+  },
+  "LogHeaders": {
+    "simplefavorites": "simplefavoriteslog-header"
+  },
+  "LogActionsHandlers": {
+    "simplefavorites/*": "LogFormatter"
+  },
   "manifest_version": 1
 }

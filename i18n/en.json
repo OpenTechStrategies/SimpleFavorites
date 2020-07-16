@@ -52,5 +52,9 @@
 	"apihelp-simplefavorite-summary": "Add or remove a page from/to the current user's favorite list",
 	"apihelp-simplefavorite-param-title": "The page to (un)favorite",
 	"apihelp-simplefavorite-param-unfavorite": "If set the page will be unfavorited rather than favorited",
-	"apihelp-simplefavorite-param-token": "A token previously acquired via <kbd>prop=info</kbd>"
+	"apihelp-simplefavorite-param-token": "A token previously acquired via <kbd>prop=info</kbd>",
+  "simplefavoriteslog": "Simple Favorites Log",
+  "simplefavoriteslog-header": "Log of people Simple Favoriting things",
+  "logentry-simplefavorites-add": "$1 added $3 as a favorite",
+  "logentry-simplefavorites-remove": "$1 removed $3 as a favorite"
 }

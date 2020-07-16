@@ -38,6 +38,8 @@ class SimpleFavoriteAction {
 	}
 	
 	function doSimpleFavorite( Title $title, User $user  ) {
+    $log = new LogPage('simplefavorites', false);
+    $log->addEntry('add', $title, null);
 		$success = false;
 		$dbw = wfGetDB( DB_MASTER );
 		$dbw->insert( 'simplefavoritelist',
@@ -55,6 +57,8 @@ class SimpleFavoriteAction {
 	}
 	
 	function doUnsimplefavorite( Title $title, User $user  ) {
+    $log = new LogPage('simplefavorites', false);
+    $log->addEntry('remove', $title, null);
 		$success = false;
 		
 		$dbw = wfGetDB( DB_MASTER );
