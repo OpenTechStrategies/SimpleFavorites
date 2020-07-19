@@ -2,13 +2,13 @@
   "name": "Simple Favorites",
   "version": "0.0.1",
   "author": [
-		"Jeremy Lemley",
+    "Jeremy Lemley",
     "Open Tech Strategies, LLC"
   ],
   "license-name": "GPL-2.0-or-later",
   "url": "https://github.com/OpenTechStrategies/torque",
   "descriptionmsg": "simplefavorites-desc",
-	"type": "specialpages",
+  "type": "specialpages",
   "requires": {
     "MediaWiki": ">= 1.31.0"
   },
@@ -30,24 +30,24 @@
   },
   "ResourceModules": {
     "ext.simplefavorites.style": {
-		  "styles": "modules/simplefavorites.css"
+      "styles": "modules/simplefavorites.css"
     },
     "ext.simplefavorites": {
-		  "scripts": ["modules/page.simplefavorite.ajax.js", "modules/simplefavorites.js"],
-		  "dependencies": ["mediawiki.api", "mediawiki.RegExp", "user.tokens"],
-	    "messages": [
-				"simplefavoriteerrortext",
-				"tooltip-ca-simplefavorite",
-				"tooltip-ca-unsimplefavorite",
-				"simplefavoriteing",
-				"unsimplefavoriteing",
-				"simplefavoritethispage",
-				"unsimplefavoritethispage",
-				"simplefavorite",
-				"unsimplefavorite",
-				"addedsimplefavoritetext",
-				"removedsimplefavoritetext"
-		  ]
+      "scripts": ["modules/page.simplefavorite.ajax.js", "modules/simplefavorites.js"],
+      "dependencies": ["mediawiki.api", "mediawiki.RegExp", "user.tokens"],
+      "messages": [
+        "simplefavoriteerrortext",
+        "tooltip-ca-simplefavorite",
+        "tooltip-ca-unsimplefavorite",
+        "simplefavoriteing",
+        "unsimplefavoriteing",
+        "simplefavoritethispage",
+        "unsimplefavoritethispage",
+        "simplefavorite",
+        "unsimplefavorite",
+        "addedsimplefavoritetext",
+        "removedsimplefavoritetext"
+      ]
     }
   },
   "ResourceFileModulePaths": {
