@@ -34,7 +34,7 @@
     },
     "ext.simplefavorites": {
       "scripts": ["modules/page.simplefavorite.ajax.js", "modules/simplefavorites.js"],
-      "dependencies": ["mediawiki.api", "mediawiki.RegExp", "user.tokens"],
+      "dependencies": ["mediawiki.api", "mediawiki.util"],
       "messages": [
         "simplefavoriteerrortext",
         "tooltip-ca-simplefavorite",
